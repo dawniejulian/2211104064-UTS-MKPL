@@ -15,7 +15,9 @@ public class TaxFunction {
 	 */
 	
 	
-	public static int calculateTax(TaxPayerInfo info) {
+	public class TaxFunction {
+
+    public static int calculateTax(TaxPayerInfo info) {
         int tax = 0;
 
         if (info.numberOfMonthWorking > 12) {
